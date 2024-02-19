@@ -1,8 +1,8 @@
-from api.auth_openai import getOpenAIkey
-import openai
 
+import openai
 import base64
 import requests
+from auth_openai import getOpenAIkey
 
 # OpenAI API Key
 api_key = getOpenAIkey()
