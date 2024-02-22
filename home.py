@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title('Home')
+st.title('Welcome to Kia Vision AI!')
 st.divider()
 
 st.write('Welcome to the home page!')
 
-st.page_link("pages/landing.py", label="Click this button to Get Started", icon="🚀")
+st.page_link("pages/get started.py", label="Click this button to Get Started", icon="🚀")
