@@ -1,6 +1,6 @@
 import streamlit as st
-from assistant_openai import ask_gpt
-from vision_openai import analyze_image
+from api.assistant_openai import ask_gpt
+from api.vision_openai import analyze_image
 
 st.title("Vision out 💡")
 

@@ -1,7 +1,7 @@
 #from api_keys import OPENAI_API_KEY, ASSISTANT_ID
 from openai import OpenAI
 import time
-from auth_openai import getOpenAIkey, getAssistant
+from api.auth_openai import getOpenAIkey, getAssistant
 
 
 def set_api_key():
