@@ -14,6 +14,7 @@ def ask_gpt(prompt):
         myAssist = set_api_key().beta.assistants.retrieve(getAssistant())
         assistant_id = myAssist.id
         print("Assistant initialized")
+        
 
         # Assistant interaction with new message thread
         message = set_api_key().beta.threads.messages.create(

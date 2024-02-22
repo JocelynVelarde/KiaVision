@@ -41,7 +41,7 @@ def analyze_image(image_file):
     }
 
     response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
-    assistant_message = response.json()['choices'][0]['message']['content']
+    
 
-    return assistant_message
+    return response.json()
 
