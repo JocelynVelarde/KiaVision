@@ -1,11 +1,9 @@
 
 # KiaVision: Real time problem solving assistant 🤖
 
-Do you often feel unsafe when going home? Want to know the most optimal safe route to get there?
+Could you imagine your own personal mechanic, ready when you actually need it? Kia Vision AI is here. Snap a pic, tell us about your problem, and you'll get an answer instantly. The expertise you need, whenever you need it.
 
-Then, SafeNav is the answer for you! Just easily type or speak your desired initial point and final destination point, and we will provide you with the safest route to get there.
-
-<img src="https://github.com/JocelynVelarde/SafeNav/assets/70779495/2f9e2f64-8409-40bc-8f4c-44c70a0bc079" alt="safenav profile" width="500" height="400">
+<img src="https://github.com/JocelynVelarde/KiaVision/assets/70779495/4fd07f58-d259-4a6b-93d9-3383af2ffcb9" alt="safenav profile" width="500" height="400">
 
 ## Authors
 
@@ -15,11 +13,9 @@ Then, SafeNav is the answer for you! Just easily type or speak your desired init
 
 ## Features
 
-- Easily type or speak in natural language your desired route
-- Translation from speech to text
-- Implements LLMs to filter requests and provide route data
-- Uses Dijkstra's algorithm for optimal pathfinding
-- Takes into consideration criminal activity near each zone to provide a safe route
+- Uses a trained LLM to solve specific issues regarding a model car type
+- Implements vision models to interpret images
+- Uses TruLens to receive model feedback
 - Light and Dark mode enabled
 - Available in all devices
 
@@ -30,7 +26,6 @@ streamlit_app
 ├─ home.py
 ├─ .streamlit
 │   └─ secrets.toml
-│   └─ gcloud.json
 ├─ algorithms
 ├─ api
 ├─ assets
@@ -38,7 +33,7 @@ streamlit_app
 │  └─ images
 ├─ pages
 │  └─ report_bug.py
-│  └─ get_started.py
+│  └─ get started.py
 │  └─ route.py
 └─ requirements.txt
 ```
@@ -47,14 +42,14 @@ streamlit_app
 
 - OpenAI API
 - Streamlit
-- streamlit-mic-recorder
-- Google Sheets API
+- TruLends
+I
 
 Deployed with: Streamlit Cloud
 
 ## Demo
 
-[YouTube](https://www.youtube.com/watch?v=poZN7ochd2Y&t=22s)
+[YouTube](https://www.youtube.com/watch?v=21Sfghj9dFo)
 
 
 ## License
