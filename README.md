@@ -3,7 +3,7 @@
 
 Could you imagine your own personal mechanic, ready when you actually need it? Kia Vision AI is here. Snap a pic, tell us about your problem, and you'll get an answer instantly. The expertise you need, whenever you need it.
 
-<img src="https://github.com/JocelynVelarde/KiaVision/assets/70779495/4fd07f58-d259-4a6b-93d9-3383af2ffcb9" alt="safenav profile" width="500" height="400">
+<img src="https://github.com/JocelynVelarde/KiaVision/assets/70779495/f3be86e6-39b2-4bd6-8a8a-4df01c9f1a26" alt="safenav profile" width="800" height="500">
 
 ## Authors
 
